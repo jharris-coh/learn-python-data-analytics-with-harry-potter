@@ -2,6 +2,59 @@
 
 ## Setting Up Your Environment
 
+### Sign Up for GitHub
+If you don't already have a github.com account, go to [https://github.com/signup](https://github.com/signup) and create one.
+
+### Install the Applications
+#### GitHub Desktop
+
+GitHub Desktop is a graphical interface that simplifies using Git and GitHub. It allows you to manage your repositories and collaborate on projects easily.
+
+1. **Download GitHub Desktop**:
+   - Navigate to [https://desktop.github.com/download/](https://desktop.github.com/download/).
+   - Click the "Download for [Your OS]" button. The website should detect your operating system automatically.
+
+2. **Install GitHub Desktop**:
+   - Once the download is complete, open the installer file.
+   - Follow the on-screen instructions to complete the installation.
+
+3. **Set Up GitHub Desktop**:
+   - Launch GitHub Desktop.
+   - Sign in to your GitHub account or create a new one if you don't have an account yet.
+   - You can configure your Git settings (name and email) within the application, which will be used for commits.
+
+#### Miniconda
+
+Miniconda is a minimal installer for Conda, which includes only Conda and its dependencies. It allows you to manage Python packages and environments efficiently.
+
+1. **Download Miniconda**:
+   - Visit the [Miniconda download page](https://docs.conda.io/en/latest/miniconda.html).
+   - Choose the installer for your operating system (Windows, macOS, or Linux) and your preferred Python version (usually Python 3.x).
+
+2. **Install Miniconda**:
+   - Run the installer and follow the on-screen instructions.
+   - During installation, you can choose whether to add Miniconda to your system's PATH. It's recommended to do so for easy access to the `conda` command.
+   - After installation, you may need to restart your terminal or command prompt for the changes to take effect.
+
+3. **Verify Installation**:
+   - Open a terminal or command prompt.
+   - Type `conda --version` to verify that Conda is installed correctly. You should see the version number displayed.
+
+#### PyCharm Community Edition
+
+PyCharm is a popular integrated development environment (IDE) for Python, providing features like code editing, debugging, and testing tools. The Community Edition is free and open-source.
+
+1. **Download PyCharm**:
+   - Go to the [PyCharm download page](https://www.jetbrains.com/pycharm/download/).
+   - Choose the Community edition for your operating system.
+
+2. **Install PyCharm**:
+   - Download the installer for your operating system.
+   - Run the installer and follow the on-screen instructions to install PyCharm.
+
+### Configure the Environment
+
+
 ## Data Analysis with Pandas
 This section details how [harry_potter_analysis_pandas.py](harry_potter_analysis_pandas.py) uses pandas to process data
 and visualize it with Plotly.
