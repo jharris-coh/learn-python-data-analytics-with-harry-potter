@@ -1,4 +1,4 @@
-pyarrow
-pandas
-duckdb
-plotly
+pyarrow~=17.0
+pandas~=2.2
+duckdb~=1.0
+plotly~=5.23
