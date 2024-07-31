@@ -5,54 +5,47 @@
 ### Sign Up for GitHub
 If you don't already have a github.com account, go to [https://github.com/signup](https://github.com/signup) and create one.
 
-### Install the Applications
-#### GitHub Desktop
+### Run and Develop in GitHub Codespaces
 
-GitHub Desktop is a graphical interface that simplifies using Git and GitHub. It allows you to manage your repositories and collaborate on projects easily.
+This guide will walk you through the steps to fork a repository on GitHub, navigate to your fork, and start a [GitHub Codespaces environment](https://docs.github.com/en/codespaces/overview) for development.
 
-1. **Download GitHub Desktop**:
-   - Navigate to [https://desktop.github.com/download/](https://desktop.github.com/download/).
-   - Click the "Download for [Your OS]" button. The website should detect your operating system automatically.
+#### 1. Navigating to the Repository
 
-2. **Install GitHub Desktop**:
-   - Once the download is complete, open the installer file.
-   - Follow the on-screen instructions to complete the installation.
+1. **Log in to GitHub**:
+   - Go to [github.com](https://github.com/) and log in with your credentials.
 
-3. **Set Up GitHub Desktop**:
-   - Launch GitHub Desktop.
-   - Sign in to your GitHub account or create a new one if you don't have an account yet.
-   - You can configure your Git settings (name and email) within the application, which will be used for commits.
+2. **Access the Repository**:
+   - Visit the repository URL: [https://github.com/jharris126/learn-python-data-analytics-with-harry-potter](https://github.com/jharris126/learn-python-data-analytics-with-harry-potter).
 
-#### Miniconda
+#### 2. Forking the Repository
 
-Miniconda is a minimal installer for Conda, which includes only Conda and its dependencies. It allows you to manage Python packages and environments efficiently.
+1. **Fork the Repository**:
+   - On the repository's page, click the "Fork" button in the top-right corner. This button is usually located near the "Star" button.
+   - You don't need to change anything on the "Create a new fork" page. Click the green "Create fork" button in the bottom right to finish creating your own fork of the code.
+   - GitHub will create a copy of the repository under your account. This forked repository will now be in your GitHub account, where you can make changes without affecting the original repository.
 
-1. **Download Miniconda**:
-   - Visit the [Miniconda download page](https://docs.conda.io/en/latest/miniconda.html).
-   - Choose the installer for your operating system (Windows, macOS, or Linux) and your preferred Python version (usually Python 3.x).
+#### 3. Navigating to Your Fork
 
-2. **Install Miniconda**:
-   - Run the installer and follow the on-screen instructions.
-   - During installation, you can choose whether to add Miniconda to your system's PATH. It's recommended to do so for easy access to the `conda` command.
-   - After installation, you may need to restart your terminal or command prompt for the changes to take effect.
+1. **Go to Your Fork**:
+   - After forking, GitHub will redirect you to the forked repository. If not, navigate to your profile by clicking on your profile picture in the top-right corner and selecting "Your repositories."
+   - In the list of repositories, click on the forked repository, which will have the same name as the original but will be under your username (e.g., `https://github.com/yourusername/learn-python-data-analytics-with-harry-potter`).
 
-3. **Verify Installation**:
-   - Open a terminal or command prompt.
-   - Type `conda --version` to verify that Conda is installed correctly. You should see the version number displayed.
+#### 4. Starting a GitHub Codespace
 
-#### PyCharm Community Edition
+GitHub Codespaces provides a cloud-based development environment. Here's how to start one:
 
-PyCharm is a popular integrated development environment (IDE) for Python, providing features like code editing, debugging, and testing tools. The Community Edition is free and open-source.
+1. **Open Codespaces**:
+   - On your forked repository page, click on the "Code" button (usually green) near the top-right of the page, next to the "Add file" button.
+   - Select "Codespaces" on the ribbon, then "Create codespace on main".
 
-1. **Download PyCharm**:
-   - Go to the [PyCharm download page](https://www.jetbrains.com/pycharm/download/).
-   - Choose the Community edition for your operating system.
+2. **Create a New Codespace**:
+   - GitHub will set up the environment, which may take a few minutes. This setup includes installing the necessary dependencies and configuring the environment based on the repository's settings.
+   - After the `postCreateCommand` finishes running in the "TERMINAL", you should see something like: `/workspaces/learn-python-data-analytics-with-harry-potter (main) $ `. This means your Codespaces environment is ready to use.
 
-2. **Install PyCharm**:
-   - Download the installer for your operating system.
-   - Run the installer and follow the on-screen instructions to install PyCharm.
-
-### Configure the Environment
+3. **Test Run and Start Developing**:
+   - Click on `harry_potter_analysis_pandas.py` in the "EXPLORER" pane on the left to open the file to test run.
+   - Click the play button triangle in the top right to run the python code in the file, this should run the code and launch a new browser tab with the bar chart analysis. To dive deeper into what this code does and how, see the [Data Analysis with Pandas](#data-analysis-with-pandas) section below.
+   - You can now tweak the existing files or add your own analyses with no affect on the original code repository this was forked from.
 
 
 ## Data Analysis with Pandas
